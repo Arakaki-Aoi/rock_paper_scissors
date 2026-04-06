@@ -1,32 +1,31 @@
-# Python Number Guessing Game
+# Rock Paper Scissors GUI (Tkinter)
 
 ## Overview
 
-This project is a simple command-line number guessing game built with Python.
+This project is a simple **Rock-Paper-Scissors game** built with Python and Tkinter.
 
-The program generates a random number between **1 and 10**, and the player must guess the correct number within **three attempts**.
+The user selects a hand from a dropdown menu, and the computer randomly selects its hand.  
+The game then determines whether the player **wins, loses, or draws**.
 
-It includes input validation, range checking, and hint messages such as **"Too high!"** and **"Too low!"** to guide the player.
-
-This project was created as part of my Python learning and portfolio development.
+This project was created as part of my Python learning and portfolio development, focusing on GUI programming and event-driven design.
 
 ---
 
 ## Features
 
-- Random number generation
-- Input validation for integers
-- Range validation (1–10)
-- Hint system ("Too high!" / "Too low!")
-- Limited attempts (3 tries)
-- Automated tests with pytest
+- GUI built with Tkinter
+- Dropdown (Combobox) for user input
+- Random CPU hand generation
+- Game result determination (Win / Lose / Draw)
+- Input validation (prevents empty selection)
+- Event-driven interaction (button click)
 
 ---
 
 ## Technologies
 
 - Python
-- pytest
+- Tkinter (GUI)
 
 ---
 
@@ -35,6 +34,5 @@ This project was created as part of my Python learning and portfolio development
 ```bash
 .
 ├── main.py
-├── test_main.py
-└── README.md
+├── README.md
 ```
